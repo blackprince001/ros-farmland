@@ -1,0 +1,16 @@
+material RepeatedGrass/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        // Relative to the location of the material script
+        texture RGB_f7ec8ba0935e4994acf9a08c1567a13a_1_Albedo.jpg.001.jpg
+        // Repeat the texture over the surface (4 per face)
+      }
+    }
+  }
+}
