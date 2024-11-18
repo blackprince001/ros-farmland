@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(gazebo_terrain_tutorial)
+project(ros-farmland)
 
 find_package(catkin REQUIRED COMPONENTS
   gazebo_ros
